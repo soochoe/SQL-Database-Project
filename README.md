@@ -7,4 +7,4 @@ Refer to "Data Model - Barker's Notation.pdf" file for graphical entity-relation
 ### Data Definition Language (DDL) & Data Manipulation Language (DML) 
 Refer to "_CPC_DATABASE_.sql" file for relational database exported from MySQL
 ### Data Query Language (DQL)
-Refer to "SELECT_STATEMENT" for SQL Query and analysis 
+Refer to "Data Query Language.sql" for SQL Query and analysis 
