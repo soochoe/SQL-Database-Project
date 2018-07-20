@@ -1,5 +1,5 @@
 
---# 1) How many of our clients are within this age demographic: 5-25 years old?
+# 1) How many of our clients are within this age demographic: 5-25 years old?
 
 SELECT COUNT(id)
 FROM client
