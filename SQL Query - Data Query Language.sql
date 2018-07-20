@@ -15,8 +15,8 @@ lesson promotions to this particular demographic. As well, the query can easily 
 demographic or perform a more in-depth analysis of the young demographic. 
 */
 
---# 2) How much revenue and expense is each horse generating? Which horses are bringing in a profit and which horses 
---     are bringing in a loss?
+# 2) How much revenue and expense is each horse generating? Which horses are bringing in a profit and which horses 
+#    are bringing in a loss?
 
 SELECT horse.Id,horse.Name, SUM(invoice.Price),SUM(medical_service.Cost)
 FROM injury_report,lesson_chukker,horse_group,horse,medical_service,client_group,client,invoice
@@ -38,7 +38,8 @@ work differently with the horse or possibly sell the horse to prevent a net loss
 */
 
 
---# 3) Out of all the injury reports, who (groom, coach, client, horse) is involved in the most accidents? Is there a causation to this correlation?
+# 3) Out of all the injury reports, who (groom, coach, client, horse) is involved in the most accidents? Is there a causation 
+#    to this correlation?
 
 SELECT injury_report.Id,coach.First_name,client.First_name,horse.Name,groom.First_name
 FROM injury_report,lesson_chukker,coach,client_group,client,horse_group,horse,groom
